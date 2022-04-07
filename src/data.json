@@ -1,0 +1,38 @@
+[
+    {
+        "productID": 144,
+        "productName": "Green Gabriel",
+        "productDesc": "This is description",
+        "productPrice": 32
+    },
+    {
+        "productID": 244,
+        "productName": "Purple Purifier",
+        "productDesc": "This is description",
+        "productPrice": 88
+    },
+    {
+        "productID": 344,
+        "productName": "Red Rain",
+        "productDesc": "This is description",
+        "productPrice": 45
+    },
+    {
+        "productID": 444,
+        "productName": "Blue Basilisk",
+        "productDesc": "This is description",
+        "productPrice": 134
+    },
+    {
+        "productID": 544,
+        "productName": "Yellow Ytterbium",
+        "productDesc": "This is description",
+        "productPrice": 2
+    },
+    {
+        "productID": 644,
+        "productName": "Orange Ore",
+        "productDesc": "This is description",
+        "productPrice": 999
+    }
+]

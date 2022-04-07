@@ -5,7 +5,7 @@ import Card from "./Card";
 import Cart from "./Cart";
 import data from "../data.json"
 
-const initialGoods = []
+//const initialGoods = JSON.parse(localStorage.getItem("storedState")) || []
 //reducer is seriously good, USE IT MORE
 const reducer = (allGoods, action) => {
     switch (action.type) {
@@ -34,6 +34,16 @@ const reducer = (allGoods, action) => {
                 stateCopy[isPresent].quantity = action.currValue
                 return [...stateCopy] 
             }
+        
+        case "deleteItem":
+            let IdIsPresent = allGoods.findIndex(element => (element.prodID === action.parentId))
+            if(IdIsPresent === -1) {
+                return
+            } else {
+                const stateCopy = allGoods.slice()
+                stateCopy.splice(IdIsPresent,1)
+                return [...stateCopy]
+            }
 
         default:
                 throw new Error();
@@ -41,7 +51,11 @@ const reducer = (allGoods, action) => {
 }
 
 export default function Shop() {
-    const [allGoods, dispatch] = React.useReducer(reducer, initialGoods)
+    const [allGoods, dispatch] = React.useReducer(reducer, [],  (initialGoods) => JSON.parse(localStorage.getItem("storedState")) || initialGoods)
+
+    React.useEffect(()=> {
+        localStorage.setItem("storedState", JSON.stringify(allGoods))
+    },[allGoods])
 
 //take prod id and quantity from card and populate state
     // const [allGoods, setAllGoods] = React.useState([])
@@ -67,7 +81,7 @@ export default function Shop() {
     return(
         <div>
             <Nav />
-            <Cart allGoods={allGoods} />
+            <Cart allGoods={allGoods} updateGoods={dispatch} />
             {Cards}
         </div>
     )

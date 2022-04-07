@@ -17,7 +17,7 @@ export default function Card(props) {
     }
 
     return(
-        <div id={props.prodID} name={props.prodName} price={props.price}>
+        <div id={props.prodID}>
             <img alt="placeholder" />
             <h4>{props.prodName}</h4>
             <p>{props.price}</p>

@@ -12,6 +12,7 @@ export default function Cart(props) {
             <li>{item.prodName}</li>
             <li>{item.quantity}</li>
             <li>{item.price}</li>
+            <button onClick={()=> props.updateGoods({type:"deleteItem", parentId: item.prodID})} >delete</button>
         </ul>)
     })
 

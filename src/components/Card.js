@@ -18,7 +18,7 @@ export default function Card(props) {
 
     return(
         <div id={props.prodID}>
-            <img alt="placeholder" />
+            <img src={require(`../images/${props.prodImg}.jpg`)} alt="placeholder" />
             <h4>{props.prodName}</h4>
             <p>{props.price}</p>
             <button onClick={decrement} disabled={goodsQuantity === 1 ? true : false} >Decrement</button>

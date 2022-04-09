@@ -3,6 +3,7 @@ import React from "react";
 import Nav from "./Nav";
 import Card from "./Card";
 import Cart from "./Cart";
+import GlobalStyles from "./styles/Global";
 import data from "../data.json"
 
 //const initialGoods = JSON.parse(localStorage.getItem("storedState")) || []
@@ -62,7 +63,7 @@ export default function Shop() {
 
     // function updateGoods(event) {
     //     console.log(allGoods) //in one line selected id
-    //     setAllGoods(prevGoods => {
+    //     setAllGoo    ds(prevGoods => {
     //         return [
     //             ...prevGoods,
     //             {
@@ -74,14 +75,16 @@ export default function Shop() {
     // }
 
     let Cards = data.map((item)=> {
-       return <Card key={item.productID} prodID={item.productID} prodName={item.productName} price={item.productPrice} updateGoods={dispatch} /> 
+       return <Card key={item.productID} prodID={item.productID} prodImg={item.productImage} prodName={item.productName} price={item.productPrice} updateGoods={dispatch} /> 
     })
 
     console.log(allGoods)
     return(
         <div>
+            <GlobalStyles />
             <Nav />
             <Cart allGoods={allGoods} updateGoods={dispatch} />
+            <h2>Shop</h2>
             {Cards}
         </div>
     )

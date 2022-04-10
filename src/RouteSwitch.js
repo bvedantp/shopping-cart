@@ -11,7 +11,7 @@ import Nav from "./components/Nav";
 
 const RouteSwitch = ()=> {
     return(
-        <BrowserRouter>
+        <BrowserRouter basename="/shopping">
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/shop" element={<Shop />} />

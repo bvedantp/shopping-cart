@@ -1,65 +1,83 @@
 [
     {
         "productID": 144,
-        "productName": "Green Gabriel",
-        "productDesc": "This is description",
+        "productName": "Yellow Ytterbium",
+        "productDesc": "This is description. It will wrap around the card and any overflow will be hidden. As can be illustrated. As can be illustrated. As ",
         "productPrice": 32,
-        "productImage": 1
+        "productImage": 1,
+        "color1": "#FFD42F",
+        "color2": "#472757"
     },
     {
         "productID": 244,
-        "productName": "Purple Purifier",
+        "productName": "Green Gabriel",
         "productDesc": "This is description",
         "productPrice": 88,
-        "productImage": 2
+        "productImage": 2,
+        "color1": "#7EEA3A",
+        "color2": "#1D4A03"
     },
     {
         "productID": 344,
-        "productName": "Red Rain",
+        "productName": "Blue Basilisk",
         "productDesc": "This is description",
         "productPrice": 45,
-        "productImage": 3
+        "productImage": 3,
+        "color1": "#41E3F0",
+        "color2": "#285F6F"
     },
     {
         "productID": 444,
-        "productName": "Blue Basilisk",
+        "productName": "Purple Purifier",
         "productDesc": "This is description",
         "productPrice": 134,
-        "productImage": 4
+        "productImage": 4,
+        "color1": "#AB50AD",
+        "color2": "#28368D"
     },
     {
         "productID": 544,
-        "productName": "Yellow Ytterbium",
+        "productName": "Red Rain",
         "productDesc": "This is description",
         "productPrice": 2,
-        "productImage": 5
+        "productImage": 5,
+        "color1": "#EC3F26",
+        "color2": "#5F161F"
     },
     {
         "productID": 644,
         "productName": "Orange Ore",
         "productDesc": "This is description",
-        "productPrice": 999,
-        "productImage": 6
+        "productPrice": 159,
+        "productImage": 6,
+        "color1": "#F48B26",
+        "color2": "#B84919"
     },
     {
         "productID": 744,
-        "productName": "Orange Ore",
+        "productName": "Prism Enchanter",
         "productDesc": "This is description",
-        "productPrice": 999,
-        "productImage": 7
+        "productPrice": 573,
+        "productImage": 7,
+        "color1": "#219EB7",
+        "color2": "#F09DDC"
     },
     {
         "productID": 844,
-        "productName": "Orange Ore",
+        "productName": "The Universe",
         "productDesc": "This is description",
         "productPrice": 999,
-        "productImage": 8
+        "productImage": 8,
+        "color1": "#8F72CD",
+        "color2": "#F9D1ED"
     },
     {
         "productID": 944,
-        "productName": "Orange Ore",
+        "productName": "Alive Forest",
         "productDesc": "This is description",
-        "productPrice": 999,
-        "productImage": 9
+        "productPrice": 724,
+        "productImage": 9,
+        "color1": "#6FE5F6",
+        "color2": "#156081"
     }
 ]

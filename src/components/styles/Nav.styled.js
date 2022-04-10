@@ -12,7 +12,7 @@ export const NavExpand = styled.button`
     color: #252A30;
     border: 3px solid #FFD42F;
     background-color: #FFD42F;
-    position: absolute;
+    position: fixed;
     z-index: 9;
     transition: transform 300ms ease;
     transform: ${(props)=> (props.isClicked ? "rotate(180deg)" : "rotate(0deg)")};
@@ -29,7 +29,7 @@ const navSlideAnimation = keyframes`
 export const NavBar = styled.nav`
     width: 50vw;
     height: 100vh;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 8;

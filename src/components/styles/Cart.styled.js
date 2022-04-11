@@ -7,7 +7,7 @@ export const CartDisplay = styled.div`
 `
 
 export const ToggleCart = styled.button`
-    padding: 8px;
+    padding: 12px;
     margin-right: 12px;
     border-radius: 50%;
     color: #FFD42F;

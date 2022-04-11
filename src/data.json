@@ -11,7 +11,7 @@
     {
         "productID": 244,
         "productName": "Green Gabriel",
-        "productDesc": "This is description",
+        "productDesc": "This is description. It will wrap around the card and any overflow will be hidden. As can be illustrated. As can be illustrated. As ",
         "productPrice": 88,
         "productImage": 2,
         "color1": "#7EEA3A",
@@ -20,7 +20,7 @@
     {
         "productID": 344,
         "productName": "Blue Basilisk",
-        "productDesc": "This is description",
+        "productDesc": "This is description. It will wrap around the card and any overflow will be hidden. As can be illustrated. As can be illustrated. As ",
         "productPrice": 45,
         "productImage": 3,
         "color1": "#41E3F0",
@@ -29,7 +29,7 @@
     {
         "productID": 444,
         "productName": "Purple Purifier",
-        "productDesc": "This is description",
+        "productDesc": "This is description. It will wrap around the card and any overflow will be hidden. As can be illustrated. As can be illustrated. As ",
         "productPrice": 134,
         "productImage": 4,
         "color1": "#AB50AD",
@@ -38,7 +38,7 @@
     {
         "productID": 544,
         "productName": "Red Rain",
-        "productDesc": "This is description",
+        "productDesc": "This is description. It will wrap around the card and any overflow will be hidden. As can be illustrated. As can be illustrated. As ",
         "productPrice": 2,
         "productImage": 5,
         "color1": "#EC3F26",
@@ -47,7 +47,7 @@
     {
         "productID": 644,
         "productName": "Orange Ore",
-        "productDesc": "This is description",
+        "productDesc": "This is description. It will wrap around the card and any overflow will be hidden. As can be illustrated. As can be illustrated. As ",
         "productPrice": 159,
         "productImage": 6,
         "color1": "#F48B26",
@@ -56,7 +56,7 @@
     {
         "productID": 744,
         "productName": "Prism Enchanter",
-        "productDesc": "This is description",
+        "productDesc": "This is description. It will wrap around the card and any overflow will be hidden. As can be illustrated. As can be illustrated. As ",
         "productPrice": 573,
         "productImage": 7,
         "color1": "#219EB7",
@@ -65,7 +65,7 @@
     {
         "productID": 844,
         "productName": "The Universe",
-        "productDesc": "This is description",
+        "productDesc": "This is description. It will wrap around the card and any overflow will be hidden. As can be illustrated. As can be illustrated. As ",
         "productPrice": 999,
         "productImage": 8,
         "color1": "#8F72CD",
@@ -74,7 +74,7 @@
     {
         "productID": 944,
         "productName": "Alive Forest",
-        "productDesc": "This is description",
+        "productDesc": "This is description. It will wrap around the card and any overflow will be hidden. As can be illustrated. As can be illustrated. As ",
         "productPrice": 724,
         "productImage": 9,
         "color1": "#6FE5F6",

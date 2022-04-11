@@ -63,23 +63,23 @@ export const FlipToBack = styled.button`
 //for animation pass props using arrow function, not the normal way
 const pulsingLight = (props) => keyframes`
     0% {
-        box-shadow: 0 0 15px ${props.accentcolor};
+        box-shadow: 0 0 20px ${props.accentcolor};
     }
 
     20% {
-        box-shadow: 0 0 15px #1B2025;
+        box-shadow: 0 0 20px #1B2025;
     }
 
     40% {
-        box-shadow: 0 0 15px ${props.maincolor};
+        box-shadow: 0 0 20px ${props.maincolor};
     }
 
     70% {
-        box-shadow: 0 0 15px #1B2025;
+        box-shadow: 0 0 20px #1B2025;
     }
 
     100% {
-        box-shadow: 0 0 15px ${props.accentcolor};
+        box-shadow: 0 0 20px ${props.accentcolor};
     }
 
 `
@@ -90,7 +90,7 @@ export const BackCard = styled(BackSide)`
     align-items: center;
     border: 2px solid #FFD42F;
     border-radius: 8px;
-    animation: ${pulsingLight} 6s ease-in-out infinite normal both;
+    animation: ${pulsingLight} 5s ease-in-out infinite normal both;
 `
 
 export const CloseBtn = styled.button`
@@ -99,6 +99,7 @@ export const CloseBtn = styled.button`
     border: none;
     background-color: #1B2025;
     cursor: pointer;
+    font-size: 1em;
 `
 
 export const Description = styled.section`

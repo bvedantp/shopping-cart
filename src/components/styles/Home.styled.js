@@ -2,6 +2,8 @@ import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 import { keyframes } from "styled-components";
+import glowingRock from "../../images/glowRock2.gif"
+
 
 export const HomeBase = styled.div`
     margin: 3vh 12px;
@@ -46,9 +48,23 @@ export const Heading = styled.h1`
 export const CanvasArea = styled.div`
     position: fixed;
     top: 20%;
+    left: 0%;
+    width: 50vw;
+    height: 77vh;
+    background: url(${glowingRock});
+    transform: rotate(180deg);
+    z-index: -1;
+/* 
+    img {
+        position: absolute;
+
+    top: 20%;
     left: -10%;
     width: 50vw;
     height: 70vh;
+    object-fit: cover;
+         clip: rect(0px,200px,200px,100px);
+    } */
 `
 
 export const TextArea = styled.section`

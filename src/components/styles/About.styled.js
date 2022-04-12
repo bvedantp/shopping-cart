@@ -37,9 +37,13 @@ export const Para = styled.p`
     }
 
     a {
-        text-decoration: none;
         color: #FFD42F;
         font-weight: 700;
+
+        &:hover, &:active {
+            background-color: #FFD42F;
+            color: black;
+        }
     }
 `
 

@@ -4,16 +4,16 @@ import GlobalStyles from "./styles/Global";
 import { faPersonWalkingArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { HomeBase, Heading, CanvasArea, 
     TextArea, WelcomeText, IconBorder, StylLink } from "./styles/Home.styled";
+import glowingRock from "../images/glowRock2.gif"
 
 export default function Home() {
     return(
-        <>
+        <div>
             <GlobalStyles />
             <Nav />
             <HomeBase>
                 <Heading><b>Glow</b> <br/>Show</Heading>
                 <CanvasArea>
-                    <canvas></canvas>
                 </CanvasArea>
                 <TextArea>
                     <WelcomeText>
@@ -29,6 +29,6 @@ export default function Home() {
                     <StylLink to="/shop">Enter <IconBorder icon={faPersonWalkingArrowRight} /> </StylLink>
                 </TextArea>
             </HomeBase>
-        </>
+        </div>
     )
 }

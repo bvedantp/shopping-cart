@@ -16,7 +16,7 @@ export default function About() {
             <Section>
                 <Heading>ABOUT</Heading>
                 <BlurredBox>
-                    <Para>We are the number one brand when it comes to shopping for <b>glowing</b> crystals.
+                    <Para>We are the number one brand when it comes to shopping for glowing crystals.
                         We can home deliver it to you at no cost asked. To clarify, we mean no additional cost except the delivery fee,
                         packaging fee, product handling fee, markup fee, liability fee, markdown fee, pre-insurance fee and of course who can forget GST.
                         <br/>

@@ -4,7 +4,6 @@ import GlobalStyles from "./styles/Global";
 import { faPersonWalkingArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { HomeBase, Heading, CanvasArea, 
     TextArea, WelcomeText, IconBorder, StylLink } from "./styles/Home.styled";
-import glowingRock from "../images/glowRock2.gif"
 
 export default function Home() {
     return(

@@ -26,6 +26,13 @@ const navSlideAnimation = keyframes`
     100% {width: 50vw;}
 `
 
+const navSlideAnimation2 = keyframes`
+    0% {width: 0;}
+    30% {width: 5vw;}
+    60% {width: 15vw;}
+    100% {width: 20vw;}
+`
+
 export const NavBar = styled.nav`
     width: 50vw;
     height: 100vh;
@@ -42,6 +49,12 @@ export const NavBar = styled.nav`
     overflow: hidden; //to not see underline during animation
     animation-name: ${navSlideAnimation};
     animation-duration: 300ms;
+
+    @media only screen and (min-width: 900px) {
+        width: 20vw;
+        animation-name: ${navSlideAnimation2};
+        animation-duration: 300ms;
+    }
 `
 
 export const StyledLink = styled(Link)`

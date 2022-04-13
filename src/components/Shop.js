@@ -5,7 +5,7 @@ import Card from "./Card";
 import Cart from "./Cart";
 import GlobalStyles from "./styles/Global";
 import data from "../data.json"
-import { ShopFront, CartArea } from "./styles/Shop.styled";
+import { ShopFront, HeadLine } from "./styles/Shop.styled";
 
 //const initialGoods = JSON.parse(localStorage.getItem("storedState")) || []
 //reducer is seriously good, USE IT MORE
@@ -83,10 +83,11 @@ export default function Shop() {
         <div>
             <GlobalStyles />
             <Nav />
-                <Cart allGoods={allGoods} updateGoods={dispatch} />
-            
-            <ShopFront>
+            <Cart allGoods={allGoods} updateGoods={dispatch} />
+            <HeadLine>
                 <h2><b>Our</b> <br/>Products</h2>
+            </HeadLine>
+            <ShopFront>
                 {Cards}
             </ShopFront>
         </div>

@@ -27,6 +27,11 @@ const cartSlideAnimation = keyframes`
     100% {width: 50vw;}
 `
 
+const cartSlideAnimation2 = keyframes`
+    0% {width: 0;}
+    100% {width: 100vw;}
+`
+
 export const CartBar = styled.div`
     width: 75vw;
     height: 100vh;
@@ -43,6 +48,11 @@ export const CartBar = styled.div`
     gap: 1em;
     overflow: scroll;
     animation: ${cartSlideAnimation} 300ms ease-out;
+
+    @media only screen and (min-width: 900px) {
+        width: 100vw;
+        animation: ${cartSlideAnimation2} 300ms ease-out;
+    }
 `
 
 export const ProdListArea = styled.div`
@@ -101,8 +111,9 @@ export const FinalPrice = styled.p`
         font-style: normal;
     }
 
-    &::before {
-
+    @media only screen and (min-width: 900px) {
+        align-self: center;
+        margin-left: 20%;
     }
 `
 

@@ -16,6 +16,10 @@ export const Section = styled.section`
 export const Heading = styled.h2`
     font-size: 3em;
     z-index: 3;
+
+    @media only screen and (min-width: 900px) {
+        margin-bottom: 40px;
+    }
 `
 
 export const BlurredBox = styled.div`
@@ -27,6 +31,11 @@ export const BlurredBox = styled.div`
     backdrop-filter: blur(6px);
     display: flex;
     flex-direction: column;
+    
+    @media only screen and (min-width: 900px) {
+        max-width: 800px;
+        line-height: 2em;
+    }
 `
 
 export const Para = styled.p`

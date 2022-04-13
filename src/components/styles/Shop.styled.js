@@ -7,6 +7,20 @@ export const ShopFront = styled.main`
     align-items: center;
     gap: 8px;
 
+    @media only screen and (min-width: 800px) {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: stretch;
+    }
+
+`
+
+export const HeadLine = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     h2 {
         color: #FFD42F;
         font-size: 3em;

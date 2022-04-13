@@ -50,8 +50,9 @@ export const CanvasArea = styled.div`
     top: 20%;
     left: 0%;
     width: 50vw;
-    height: 77vh;
+    height: 70vh;
     background: url(${glowingRock});
+    background-repeat: no-repeat;
     transform: rotate(180deg);
     z-index: -1;
 /* 
@@ -112,6 +113,10 @@ export const StylLink = styled(Link)`
             background-color: #FFD42F;
             color: #1B2025;
         }
+
+        @media only screen and (min-width: 900px) {
+            max-width: 200px;
+        }
 `
 
 export const WelcomeText = styled.ul`
@@ -129,6 +134,10 @@ export const WelcomeText = styled.ul`
 
     b{
         color: #FFD42F;
+    }
+
+    @media only screen and (min-width: 900px) {
+        max-width: 500px;
     }
 `
 

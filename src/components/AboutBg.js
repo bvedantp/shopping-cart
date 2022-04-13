@@ -44,6 +44,9 @@ const Row = styled.div`
     font-size: 30px;
     transform: rotate(-30deg);
     
+    @media only screen and (min-width: 900px) {
+        top: -45%;
+    }
 `
 
 const iconGlow = keyframes`
@@ -77,22 +80,22 @@ const Icon = styled(FontAwesomeIcon)`
 `
 
 const linesSlide = keyframes`
-    0% {transform: translateX(100%);}
-    100% {transform: translateX(-100%);}
+    0% {transform: translateX(-50%);}
+    100% {transform: translateX(-150%);}
 `
 
 const linesSlide2 = keyframes`
     0% {transform: translateX(0%); }
-    100% {transform: translateX(-200%);}
+    100% {transform: translateX(-100%);}
 `
 
 const InnerDiv = styled.div`
-    animation: ${linesSlide} 80s linear infinite;
-    animation-delay: -80s;
+    animation: ${linesSlide} 200s linear infinite;
+    animation-delay: -200s;
 
     &:nth-child(2) {
-        animation: ${linesSlide2} 80s linear infinite;
-        animation-delay: -40s;
+        animation: ${linesSlide2} 100s linear infinite;
+        animation-delay: -100s;
     }
 
 `
@@ -100,7 +103,7 @@ const InnerDiv = styled.div`
 export default function AboutBg({ className: aboutBackground }){
 //passed className otherwise styled compoentns wont work
 
-    let arre = Array.from(Array(18)).map((item,index)=> {
+    let arre = Array.from(Array(28)).map((item,index)=> {
         return(
             <Row key={index}>
                     <InnerDiv>
@@ -124,29 +127,128 @@ export default function AboutBg({ className: aboutBackground }){
                         <Icon icon={faMeteor} />
                         {(Math.floor(Math.random()*10)) > 8 ? <IconGlowed icon={faSpider} /> : <Icon icon={faSpider} />}
                         <Icon icon={faSquareH} />
+                        <Icon icon={faCoffee} />
+                        <Icon icon={faAddressCard} />
+                        <Icon icon={faArrowsToDot} />
+                        <Icon icon={faAtom} />
+                        <Icon icon={faBarsProgress} />
+                        <Icon icon={faBiohazard} />
+                        {(Math.floor(Math.random()*10)) > 8 ? <IconGlowed icon={faDungeon} /> : <Icon icon={faDungeon} />}
+                        <Icon icon={faGauge} />
+                        <Icon icon={faShuttleSpace} />
+                        <Icon icon={faSignature} />
+                        <Icon icon={faRadiation} />
+                        {(Math.floor(Math.random()*10)) > 8 ? <IconGlowed icon={faRobot} /> : <Icon icon={faRobot} />}
+                        <Icon icon={faPuzzlePiece} />
+                        <Icon icon={faEye} />
+                        <Icon icon={faUserSecret} />
+                        <Icon icon={faSnowflake} />
+                        <Icon icon={faFireFlameCurved} />
+                        <Icon icon={faMeteor} />
+                        {(Math.floor(Math.random()*10)) > 8 ? <IconGlowed icon={faSpider} /> : <Icon icon={faSpider} />}
+                        <Icon icon={faSquareH} />
+                        <Icon icon={faCoffee} />
+                        <Icon icon={faAddressCard} />
+                        <Icon icon={faArrowsToDot} />
+                        <Icon icon={faAtom} />
+                        <Icon icon={faBarsProgress} />
+                        <Icon icon={faBiohazard} />
+                        {(Math.floor(Math.random()*10)) > 8 ? <IconGlowed icon={faDungeon} /> : <Icon icon={faDungeon} />}
+                        <Icon icon={faGauge} />
+                        <Icon icon={faShuttleSpace} />
+                        <Icon icon={faSignature} />
+                        <Icon icon={faRadiation} />
+                        {(Math.floor(Math.random()*10)) > 8 ? <IconGlowed icon={faRobot} /> : <Icon icon={faRobot} />}
+                        <Icon icon={faPuzzlePiece} />
+                        <Icon icon={faEye} />
+                        <Icon icon={faUserSecret} />
+                        <Icon icon={faSnowflake} />
+                        <Icon icon={faFireFlameCurved} />
+                        <Icon icon={faMeteor} />
+                        {(Math.floor(Math.random()*10)) > 8 ? <IconGlowed icon={faSpider} /> : <Icon icon={faSpider} />}
+                        <Icon icon={faSquareH} />
+                        <Icon icon={faCoffee} />
+                        <Icon icon={faAddressCard} />
+                        <Icon icon={faArrowsToDot} />
+                        <Icon icon={faAtom} />
+                        <Icon icon={faBarsProgress} />
+                        <Icon icon={faBiohazard} />
+                        {(Math.floor(Math.random()*10)) > 8 ? <IconGlowed icon={faDungeon} /> : <Icon icon={faDungeon} />}
+                        <Icon icon={faGauge} />
+                        <Icon icon={faShuttleSpace} />
+                        <Icon icon={faSignature} />
+                        <Icon icon={faRadiation} />
+                        {(Math.floor(Math.random()*10)) > 8 ? <IconGlowed icon={faRobot} /> : <Icon icon={faRobot} />}
+                        <Icon icon={faPuzzlePiece} />
+                        <Icon icon={faEye} />
+                        <Icon icon={faUserSecret} />
+                        <Icon icon={faSnowflake} />
+                        <Icon icon={faFireFlameCurved} />
+                        <Icon icon={faMeteor} />
+                        {(Math.floor(Math.random()*10)) > 8 ? <IconGlowed icon={faSpider} /> : <Icon icon={faSpider} />}
+                        <Icon icon={faSquareH} />
+                        <Icon icon={faCoffee} />
+                        <Icon icon={faAddressCard} />
+                        <Icon icon={faArrowsToDot} />
+                        <Icon icon={faAtom} />
+                        <Icon icon={faBarsProgress} />
+                        <Icon icon={faBiohazard} />
+                        {(Math.floor(Math.random()*10)) > 8 ? <IconGlowed icon={faDungeon} /> : <Icon icon={faDungeon} />}
+                        <Icon icon={faGauge} />
+                        <Icon icon={faShuttleSpace} />
+                        <Icon icon={faSignature} />
+                        <Icon icon={faRadiation} />
+                        {(Math.floor(Math.random()*10)) > 8 ? <IconGlowed icon={faRobot} /> : <Icon icon={faRobot} />}
+                        <Icon icon={faPuzzlePiece} />
+                        <Icon icon={faEye} />
+                        <Icon icon={faUserSecret} />
+                        <Icon icon={faSnowflake} />
+                        <Icon icon={faFireFlameCurved} />
+                        <Icon icon={faMeteor} />
+                        {(Math.floor(Math.random()*10)) > 8 ? <IconGlowed icon={faSpider} /> : <Icon icon={faSpider} />}
+                        <Icon icon={faSquareH} />
+                        <Icon icon={faCoffee} />
+                        <Icon icon={faAddressCard} />
+                        <Icon icon={faArrowsToDot} />
+                        <Icon icon={faAtom} />
+                        <Icon icon={faBarsProgress} />
+                        <Icon icon={faBiohazard} />
+                        {(Math.floor(Math.random()*10)) > 8 ? <IconGlowed icon={faDungeon} /> : <Icon icon={faDungeon} />}
+                        <Icon icon={faGauge} />
+                        <Icon icon={faShuttleSpace} />
+                        <Icon icon={faSignature} />
+                        <Icon icon={faRadiation} />
+                        {(Math.floor(Math.random()*10)) > 8 ? <IconGlowed icon={faRobot} /> : <Icon icon={faRobot} />}
+                        <Icon icon={faPuzzlePiece} />
+                        <Icon icon={faEye} />
+                        <Icon icon={faUserSecret} />
+                        <Icon icon={faSnowflake} />
+                        <Icon icon={faFireFlameCurved} />
+                        <Icon icon={faMeteor} />
+                        {(Math.floor(Math.random()*10)) > 8 ? <IconGlowed icon={faSpider} /> : <Icon icon={faSpider} />}
+                        <Icon icon={faSquareH} />
+                        <Icon icon={faCoffee} />
+                        <Icon icon={faAddressCard} />
+                        <Icon icon={faArrowsToDot} />
+                        <Icon icon={faAtom} />
+                        <Icon icon={faBarsProgress} />
+                        <Icon icon={faBiohazard} />
+                        {(Math.floor(Math.random()*10)) > 8 ? <IconGlowed icon={faDungeon} /> : <Icon icon={faDungeon} />}
+                        <Icon icon={faGauge} />
+                        <Icon icon={faShuttleSpace} />
+                        <Icon icon={faSignature} />
+                        <Icon icon={faRadiation} />
+                        {(Math.floor(Math.random()*10)) > 8 ? <IconGlowed icon={faRobot} /> : <Icon icon={faRobot} />}
+                        <Icon icon={faPuzzlePiece} />
+                        <Icon icon={faEye} />
+                        <Icon icon={faUserSecret} />
+                        <Icon icon={faSnowflake} />
+                        <Icon icon={faFireFlameCurved} />
+                        <Icon icon={faMeteor} />
+                        {(Math.floor(Math.random()*10)) > 8 ? <IconGlowed icon={faSpider} /> : <Icon icon={faSpider} />}
+                        <Icon icon={faSquareH} />
                     </InnerDiv>
-                    <InnerDiv>
-                    <Icon icon={faCoffee} />
-                    <Icon icon={faAddressCard} />
-                    <Icon icon={faArrowsToDot} />
-                    {(Math.floor(Math.random()*10)) > 8 ? <IconGlowed icon={faAtom} /> : <Icon icon={faAtom} />}
-                    <Icon icon={faBarsProgress} />
-                    <Icon icon={faBiohazard} />
-                    <Icon icon={faDungeon} />
-                    <Icon icon={faGauge} />
-                    <Icon icon={faShuttleSpace} />
-                    <Icon icon={faSignature} />
-                    {(Math.floor(Math.random()*10)) > 8 ? <IconGlowed icon={faRadiation} /> : <Icon icon={faRadiation} />}
-                    <Icon icon={faPuzzlePiece} />
-                    <Icon icon={faEye} />
-                    <Icon icon={faUserSecret} />
-                    <Icon icon={faAnkh} />
-                    <Icon icon={faSnowflake} />
-                    {(Math.floor(Math.random()*10)) > 8 ? <IconGlowed icon={faFireFlameCurved} /> : <Icon icon={faFireFlameCurved} />}
-                    <Icon icon={faMeteor} />
-                    <Icon icon={faSpider} />
-                    <Icon icon={faSquareH} />
-                    </InnerDiv>
+                    
             </Row>
 
         )

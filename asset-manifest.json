@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.js": "/shopping-cart/static/js/main.d0612ab0.js",
+    "main.js": "/shopping-cart/static/js/main.35944b96.js",
     "static/media/glowRock2.gif": "/shopping-cart/static/media/glowRock2.2b49533354233ead22f1.gif",
+    "static/media/glowing-g.jpg": "/shopping-cart/static/media/glowing-g.0c0fff8ac895f3e833ab.jpg",
     "static/media/4.jpg": "/shopping-cart/static/media/4.7c5c2d59fc5d60d08104.jpg",
     "static/media/2.jpg": "/shopping-cart/static/media/2.7f38ba49c827024d9b72.jpg",
     "static/media/3.jpg": "/shopping-cart/static/media/3.d6f1469e82584eb64808.jpg",
@@ -12,9 +13,9 @@
     "static/media/7.jpg": "/shopping-cart/static/media/7.66f5ba7c39384301f424.jpg",
     "static/media/8.jpg": "/shopping-cart/static/media/8.fc1cc01ee7cd0cb15a6d.jpg",
     "index.html": "/shopping-cart/index.html",
-    "main.d0612ab0.js.map": "/shopping-cart/static/js/main.d0612ab0.js.map"
+    "main.35944b96.js.map": "/shopping-cart/static/js/main.35944b96.js.map"
   },
   "entrypoints": [
-    "static/js/main.d0612ab0.js"
+    "static/js/main.35944b96.js"
   ]
 }
